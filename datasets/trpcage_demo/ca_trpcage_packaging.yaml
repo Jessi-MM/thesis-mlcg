@@ -1,0 +1,8 @@
+dataset_name: 1L2Y
+names: [1L2Y]
+training_data_dir: /srv/data/itzeljem79/mlcg-tk/demo_ca/out/
+force_tag: "ca_priors"
+dataset_tag: ""
+save_dir: /srv/data/itzeljem79/mlcg-tk/demo_ca/out/
+single_protein: True
+train_size: 0.8

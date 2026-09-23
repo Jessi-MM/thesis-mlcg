@@ -1,0 +1,4 @@
+prior_tag: badn_poly_min_pair_4
+save_dir: /srv/data/itzeljem79/mlcg-tk/bba/out
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+temperature: 350

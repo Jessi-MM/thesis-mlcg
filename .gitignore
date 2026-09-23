@@ -1,0 +1,8 @@
+out/
+*.npy
+*.h5
+*.pt
+*.pck
+*.pkl
+*.dcd
+__pycache__/

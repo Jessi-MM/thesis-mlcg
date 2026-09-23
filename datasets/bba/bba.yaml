@@ -1,0 +1,16 @@
+dataset_name: 1FME
+names: [1FME]
+sample_loader: mlcg_tk.input_generator.BBA_loader
+tag: ""
+raw_data_dir: /group/ag_clementi_cmb/projects/single_protein_datasets/charmm/raw_charmm22star_bba
+save_dir: /srv/data/itzeljem79/mlcg-tk/bba/out
+pdb_template_fn: /group/ag_clementi_cmb/projects/single_protein_datasets/charmm/raw_charmm22star_bba/bba_50ns_0/structure.pdb
+cg_atoms:
+- CA
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+embedding_func: mlcg_tk.input_generator.embedding_ca
+skip_residues:
+- ACE
+- NME
+cg_mapping_strategy: slice_aggregate
+mol_num_batches: 10

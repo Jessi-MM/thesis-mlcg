@@ -1,0 +1,5 @@
+save_dir: /srv/data/itzeljem79/mlcg-tk/demo_ca/out/
+prior_tag: ca_priors
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+temperature: 350
+

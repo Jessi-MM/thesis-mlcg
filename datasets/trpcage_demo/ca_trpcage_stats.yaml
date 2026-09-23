@@ -1,0 +1,10 @@
+dataset_name: 1L2Y
+names: [1L2Y]
+tag: ""
+save_dir: /srv/data/itzeljem79/mlcg-tk/demo_ca/out
+stride: 20
+batch_size: 5000
+device: cpu
+save_figs: true
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+

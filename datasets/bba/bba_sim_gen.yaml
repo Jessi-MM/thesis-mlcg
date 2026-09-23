@@ -1,0 +1,14 @@
+dataset_name: 1FME_fes_ensemble_badn_min_pair_4
+raw_data_dir: /group/ag_clementi_cmb/users/sayeg84/a12-toolkit/bba_tk_config/
+pdb_fns:
+- bba_fes_ensemble_350K_charmm22star.pdb
+save_dir: /srv/data/itzeljem79/mlcg-tk/bba/out/
+tag: ""
+cg_atoms:
+- CA
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+embedding_func: mlcg_tk.input_generator.embedding_ca
+skip_residues:
+- ACE
+- NME
+copies: 1

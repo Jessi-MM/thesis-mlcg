@@ -1,0 +1,15 @@
+dataset_name: 1L2Y
+names: [1L2Y]
+sample_loader: mlcg_tk.input_generator.Trpcage_loader
+tag: ""
+raw_data_dir: /storage/mi/itzeljem79/Projects/mlcg-tk/examples/demo_raw_data/
+save_dir:  /srv/data/itzeljem79/mlcg-tk/demo_ca/out/
+pdb_template_fn:  /storage/mi/itzeljem79/Projects/mlcg-tk/examples/demo_raw_data/structure.pdb
+cg_atoms:
+- CA
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+embedding_func: mlcg_tk.input_generator.embedding_ca
+skip_residues:
+- ACE
+- NME
+cg_mapping_strategy: slice_aggregate

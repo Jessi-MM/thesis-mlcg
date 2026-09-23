@@ -1,0 +1,15 @@
+dataset_name: 1FME_fes_ensemble_badn_min_pair_4
+raw_data_dir: FLDR/
+save_dir: /srv/data/itzeljem79/mlcg-tk/bba/out
+tag: ""
+pdb_fns: 
+- fes_ensemble_amber_300K.pdb
+cg_atoms:
+- CA
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+embedding_func: mlcg_tk.input_generator.embedding_ca
+skip_residues:
+- ACE
+- NME
+use_terminal_embeddings: false
+copies: 1

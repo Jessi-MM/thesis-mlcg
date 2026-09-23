@@ -1,0 +1,8 @@
+dataset_name: 1L2Y
+names: [1L2Y]
+tag: ""
+save_dir: /srv/data/itzeljem79/mlcg-tk/demo_ca/out/
+prior_tag: ca_priors
+prior_fn: /srv/data/itzeljem79/mlcg-tk/demo_ca/out/ca_priors_prior_model.pt
+batch_size: 1000
+device: cpu
