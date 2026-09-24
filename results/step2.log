@@ -1,0 +1,80 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start fit_priors.py: Thu Sep 17 14:20:45 2026
+Compute histograms of CG data for 1FME dataset...:   0%|          | 0/10 [00:00<?, ?it/s]
+molecule name: 1FME_batch_0:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_0:  25%|██▌       | 1/4 [00:02<00:08,  2.98s/it][A
+molecule name: 1FME_batch_0:  50%|█████     | 2/4 [00:05<00:05,  2.69s/it][A
+molecule name: 1FME_batch_0:  75%|███████▌  | 3/4 [00:07<00:02,  2.56s/it][A
+molecule name: 1FME_batch_0: 100%|██████████| 4/4 [00:09<00:00,  2.25s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  10%|█         | 1/10 [00:11<01:40, 11.15s/it]
+molecule name: 1FME_batch_1:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_1:  25%|██▌       | 1/4 [00:02<00:07,  2.42s/it][A
+molecule name: 1FME_batch_1:  50%|█████     | 2/4 [00:04<00:04,  2.41s/it][A
+molecule name: 1FME_batch_1:  75%|███████▌  | 3/4 [00:07<00:02,  2.44s/it][A
+molecule name: 1FME_batch_1: 100%|██████████| 4/4 [00:08<00:00,  2.03s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  20%|██        | 2/10 [00:27<01:52, 14.12s/it]
+molecule name: 1FME_batch_2:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_2:  25%|██▌       | 1/4 [00:02<00:07,  2.47s/it][A
+molecule name: 1FME_batch_2:  50%|█████     | 2/4 [00:04<00:04,  2.44s/it][A
+molecule name: 1FME_batch_2:  75%|███████▌  | 3/4 [00:07<00:02,  2.29s/it][A
+molecule name: 1FME_batch_2: 100%|██████████| 4/4 [00:08<00:00,  2.05s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  30%|███       | 3/10 [00:37<01:27, 12.45s/it]
+molecule name: 1FME_batch_3:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_3:  25%|██▌       | 1/4 [00:02<00:06,  2.17s/it][A
+molecule name: 1FME_batch_3:  50%|█████     | 2/4 [00:04<00:04,  2.31s/it][A
+molecule name: 1FME_batch_3:  75%|███████▌  | 3/4 [00:06<00:02,  2.34s/it][A
+molecule name: 1FME_batch_3: 100%|██████████| 4/4 [00:08<00:00,  2.11s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  40%|████      | 4/10 [00:48<01:10, 11.67s/it]
+molecule name: 1FME_batch_4:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_4:  25%|██▌       | 1/4 [00:02<00:07,  2.40s/it][A
+molecule name: 1FME_batch_4:  50%|█████     | 2/4 [00:04<00:04,  2.45s/it][A
+molecule name: 1FME_batch_4:  75%|███████▌  | 3/4 [00:07<00:02,  2.45s/it][A
+molecule name: 1FME_batch_4: 100%|██████████| 4/4 [00:08<00:00,  2.03s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  50%|█████     | 5/10 [00:58<00:55, 11.13s/it]
+molecule name: 1FME_batch_5:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_5:  25%|██▌       | 1/4 [00:02<00:07,  2.47s/it][A
+molecule name: 1FME_batch_5:  50%|█████     | 2/4 [00:04<00:04,  2.49s/it][A
+molecule name: 1FME_batch_5:  75%|███████▌  | 3/4 [00:07<00:02,  2.35s/it][A
+molecule name: 1FME_batch_5: 100%|██████████| 4/4 [00:08<00:00,  2.12s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  60%|██████    | 6/10 [01:09<00:43, 10.98s/it]
+molecule name: 1FME_batch_6:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_6:  25%|██▌       | 1/4 [00:02<00:06,  2.16s/it][A
+molecule name: 1FME_batch_6:  50%|█████     | 2/4 [00:04<00:04,  2.35s/it][A
+molecule name: 1FME_batch_6:  75%|███████▌  | 3/4 [00:07<00:02,  2.42s/it][A
+molecule name: 1FME_batch_6: 100%|██████████| 4/4 [00:08<00:00,  2.00s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  70%|███████   | 7/10 [01:19<00:32, 10.75s/it]
+molecule name: 1FME_batch_7:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_7:  25%|██▌       | 1/4 [00:02<00:07,  2.45s/it][A
+molecule name: 1FME_batch_7:  50%|█████     | 2/4 [00:04<00:04,  2.45s/it][A
+molecule name: 1FME_batch_7:  75%|███████▌  | 3/4 [00:07<00:02,  2.47s/it][A
+molecule name: 1FME_batch_7: 100%|██████████| 4/4 [00:08<00:00,  2.07s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  80%|████████  | 8/10 [01:30<00:21, 10.70s/it]
+molecule name: 1FME_batch_8:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_8:  25%|██▌       | 1/4 [00:02<00:07,  2.46s/it][A
+molecule name: 1FME_batch_8:  50%|█████     | 2/4 [00:04<00:04,  2.47s/it][A
+molecule name: 1FME_batch_8:  75%|███████▌  | 3/4 [00:07<00:02,  2.34s/it][A
+molecule name: 1FME_batch_8: 100%|██████████| 4/4 [00:08<00:00,  2.12s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...:  90%|█████████ | 9/10 [01:40<00:10, 10.69s/it]
+molecule name: 1FME_batch_9:   0%|          | 0/4 [00:00<?, ?it/s][A
+molecule name: 1FME_batch_9:  25%|██▌       | 1/4 [00:02<00:06,  2.07s/it][A
+molecule name: 1FME_batch_9:  50%|█████     | 2/4 [00:04<00:04,  2.33s/it][A
+molecule name: 1FME_batch_9:  75%|███████▌  | 3/4 [00:07<00:02,  2.40s/it][A
+molecule name: 1FME_batch_9: 100%|██████████| 4/4 [00:08<00:00,  2.03s/it][A
+                                                                          [ACompute histograms of CG data for 1FME dataset...: 100%|██████████| 10/10 [01:50<00:00, 10.57s/it]Compute histograms of CG data for 1FME dataset...: 100%|██████████| 10/10 [01:50<00:00, 11.10s/it]
+/storage/mi/itzeljem79/Projects/mlcg-tk/src/mlcg_tk/scripts/fit_priors.py:178: UserWarning: 'makedirs' is deprecated, use 'os.makedirs(path, exist_ok=True)' instead
+  makedirs(osp.join(save_dir, f"{prior_tag}_plots"))
+Finish fit_priors.py: Thu Sep 17 14:22:47 2026
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start fit_priors.py: Thu Sep 17 14:23:38 2026
+  0%|          | 0/4 [00:00<?, ?it/s]Fiting prior bonds:   0%|          | 0/4 [00:00<?, ?it/s]/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/scipy/optimize/_minpack_py.py:540: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  return func(xdata, *params) - ydata
+Fiting prior bonds:  25%|██▌       | 1/4 [00:00<00:01,  1.77it/s]Fiting prior angles:  25%|██▌       | 1/4 [00:00<00:01,  1.77it/s]Fiting prior angles:  50%|█████     | 2/4 [00:01<00:01,  1.25it/s]Fiting prior non_bonded:  50%|█████     | 2/4 [00:01<00:01,  1.25it/s]Fiting prior non_bonded:  75%|███████▌  | 3/4 [00:03<00:01,  1.51s/it]Fiting prior pseudo_ca_dihedral:  75%|███████▌  | 3/4 [00:03<00:01,  1.51s/it]Fiting prior pseudo_ca_dihedral: 100%|██████████| 4/4 [00:04<00:00,  1.29s/it]Fiting prior pseudo_ca_dihedral: 100%|██████████| 4/4 [00:04<00:00,  1.21s/it]
+Finish fit_priors.py: Thu Sep 17 14:23:43 2026

@@ -1,0 +1,9 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start package_training_data.py: Thu Sep 17 14:59:44 2026
+Packaging 1FME dataset...:   0%|          | 0/1 [00:00<?, ?it/s]Packaging 1FME dataset...:   0%|          | 0/1 [00:04<?, ?it/s]
+All batches saved in one molecule - exit batch loop
+Finish package_training_data.py: Thu Sep 17 14:59:49 2026

@@ -1,0 +1,13 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/storage/mi/itzeljem79/Projects/mlcg-tk/src/mlcg_tk/scripts/produce_delta_forces.py:99: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  prior_model = torch.load(open(prior_fn, "rb")).to(device)
+/storage/mi/itzeljem79/Projects/mlcg-tk/src/mlcg_tk/scripts/produce_delta_forces.py:99: ResourceWarning: unclosed file <_io.BufferedReader name='/srv/data/itzeljem79/mlcg-tk/bba/out/badn_poly_min_pair_4_prior_model.pt'>
+  prior_model = torch.load(open(prior_fn, "rb")).to(device)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start produce_delta_forces.py: Thu Sep 17 14:52:41 2026
+Processing delta forces for 1FME dataset...:   0%|          | 0/10 [00:00<?, ?it/s]Processing delta forces for 1FME dataset...:  10%|█         | 1/10 [00:12<01:51, 12.42s/it]Processing delta forces for 1FME dataset...:  20%|██        | 2/10 [00:15<00:55,  6.96s/it]Processing delta forces for 1FME dataset...:  30%|███       | 3/10 [00:19<00:38,  5.46s/it]Processing delta forces for 1FME dataset...:  40%|████      | 4/10 [00:22<00:26,  4.46s/it]Processing delta forces for 1FME dataset...:  50%|█████     | 5/10 [00:25<00:20,  4.14s/it]Processing delta forces for 1FME dataset...:  60%|██████    | 6/10 [00:29<00:15,  3.85s/it]Processing delta forces for 1FME dataset...:  70%|███████   | 7/10 [00:32<00:10,  3.65s/it]Processing delta forces for 1FME dataset...:  80%|████████  | 8/10 [00:35<00:07,  3.52s/it]Processing delta forces for 1FME dataset...:  90%|█████████ | 9/10 [00:38<00:03,  3.46s/it]Processing delta forces for 1FME dataset...: 100%|██████████| 10/10 [00:42<00:00,  3.50s/it]Processing delta forces for 1FME dataset...: 100%|██████████| 10/10 [00:42<00:00,  4.24s/it]
+Finish produce_delta_forces.py: Thu Sep 17 14:53:24 2026

@@ -1,0 +1,13 @@
+[Wed Sep 16 09:52:28 PM CEST 2026] watcher started; waiting for process_raw_dataset to exit
+[Wed Sep 16 10:47:30 PM CEST 2026] process_raw_dataset is no longer running
+[Wed Sep 16 10:47:30 PM CEST 2026] found 10 coord batches and 10 force batches (expected 10 each)
+[Wed Sep 16 10:47:30 PM CEST 2026] starting build_neighborlists
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start gen_input_data.py: Wed Sep 16 22:48:07 2026
+Building NL for 1FME dataset...:   0%|          | 0/1 [00:00<?, ?it/s]Building NL for 1FME dataset...: 100%|██████████| 1/1 [00:04<00:00,  4.63s/it]Building NL for 1FME dataset...: 100%|██████████| 1/1 [00:04<00:00,  4.63s/it]
+Finish gen_input_data.py: Wed Sep 16 22:48:12 2026
+[Wed Sep 16 10:48:14 PM CEST 2026] STEP 1b DONE

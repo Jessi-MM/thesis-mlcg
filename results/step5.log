@@ -1,0 +1,10 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start gen_sim_input.py: Wed Sep 23 11:48:24 2026
+Processing CG data for 1FME_fes_ensemble_badn_min_pair_4 dataset...:   0%|          | 0/1 [00:00<?, ?it/s]/storage/mi/itzeljem79/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/contextlib.py:137: Pandas4Warning: 'future.no_silent_downcasting' is deprecated, please refrain from using it.
+  return next(self.gen)
+Processing CG data for 1FME_fes_ensemble_badn_min_pair_4 dataset...: 100%|██████████| 1/1 [00:06<00:00,  6.07s/it]Processing CG data for 1FME_fes_ensemble_badn_min_pair_4 dataset...: 100%|██████████| 1/1 [00:06<00:00,  6.07s/it]
+Finish gen_sim_input.py: Wed Sep 23 11:48:31 2026

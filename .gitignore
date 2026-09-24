@@ -6,3 +6,5 @@ out/
 *.pkl
 *.dcd
 __pycache__/
+STEP*_DONE
+STEP*_FAILED
