@@ -10,7 +10,7 @@ Run after every step 3, before packaging. Three levels:
   3. which histograms are too sparse to fit safely?
 
 Usage:
-    python check_priors.py --save_dir out --name 1FME --prior_tag badn_poly_min_pair_4 --stride 10
+    python check_priors.py --data_dir out --name 1FME --prior_tag badn_poly_min_pair_4 --stride 10
 """
 import argparse
 import glob
@@ -21,7 +21,8 @@ import numpy as np
 import torch
 
 p = argparse.ArgumentParser()
-p.add_argument("--save_dir", required=True)
+p.add_argument("--data_dir", required=True,
+               help="directory the pipeline wrote its output to; this script only READS it")
 p.add_argument("--name", required=True)
 p.add_argument("--prior_tag", required=True)
 p.add_argument("--stride", type=int, default=1, help="stride used in the stats config")
@@ -30,7 +31,7 @@ p.add_argument("--max_frames", type=int, default=200000,
                help="subsample to at most this many frames for levels 1 and 3")
 a = p.parse_args()
 
-J = lambda *x: os.path.join(a.save_dir, *x)
+J = lambda *x: os.path.join(a.data_dir, *x)
 rms = lambda v: float(np.sqrt((v ** 2).mean()))
 RULE = "=" * 72
 

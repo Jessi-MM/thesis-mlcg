@@ -29,7 +29,7 @@ with open(f"{OUT}/{TAG}_prior_builders.pck", "rb") as f:
     builders = pkl.load(f)
 model = torch.load(f"{OUT}/{TAG}_prior_model.pt", weights_only=False)
 
-fig, axs = plt.subplots(2, 2, figsize=get_figure_dim(width_in=9.0, aspect_ratio=0.62))
+fig, axs = plt.subplots(2, 2, figsize=get_figure_dim(aspect_ratio=0.62))
 for ax, bldr in zip(axs.ravel(), builders):
     name = bldr.name
     stats = bldr.histograms.data[name]

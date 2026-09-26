@@ -38,13 +38,13 @@ import matplotlib.pyplot as plt
 #       distinguishable in greyscale print
 PALETTE = {
     # --- the four prior terms: permanent colours, used in every figure ---
-    "bonds":       "#863A6F",   # deep plum      (darkest)
-    "angles":      "#975C8D",   # muted purple
-    "dihedral":    "#D989B5",   # pink
-    "non_bonded":  "#F87B92",   # coral          (lightest)
+    "bonds":       "#601D49",   # deep plum      (darkest)
+    "angles":      "#601D49",   # muted purple
+    "dihedral":    "#601D49",   # pink
+    "non_bonded":  "#601D49",   # coral          (lightest)
 
     # --- the recurring "measurement vs model" pair ---
-    "data":        "#2E073F",   # dark plum: filled markers, contrasts with the fit line
+    "data":        "#D4788F",   # dark plum: filled markers, contrasts with the fit line
     "prior_fit":   "#0072B2",   # default curve colour; term_color() overrides per term
 
     # --- comparing prior variants ---
@@ -198,7 +198,7 @@ def get_figure_dim(width_in: float = None, aspect_ratio: float = 0.75, scale: fl
 # -----------------------------------------------------------------------------
 # 5. Recurring figure: measured points + fitted curve
 # -----------------------------------------------------------------------------
-MARKER_ALPHA = 0.50   # filled, no edge (see fit_panel)
+MARKER_ALPHA = 0.70   # filled, no edge (see fit_panel)
 
 
 def fit_panel(ax, x_data, y_data, x_curve=None, y_curve=None, term="prior_fit",
@@ -219,7 +219,7 @@ def fit_panel(ax, x_data, y_data, x_curve=None, y_curve=None, term="prior_fit",
                zorder=2, label=data_label)
     if x_curve is not None:
         # zorder 3: the fit must read ON TOP, or dense data hides it entirely
-        ax.plot(x_curve, y_curve, "--", color=c, zorder=3, label=fit_label)
+        ax.plot(x_curve, y_curve, "-", color=c, zorder=3, label=fit_label)
     return ax
 
 
@@ -235,13 +235,14 @@ def format_legend(ax, loc: str = "best", title: str = None):
 
 
 def save_figure(fig, filename: str, output_dir: str = "figures", formats: tuple = None):
-    """Save in the formats appropriate for the active mode.
+    """Save the figure. PNG only by default, in every mode.
 
-    draft -> png only (fast). paper -> pdf + png. talk -> png + pdf.
+    Pass formats=("pdf", "png") when you need vector output - which is really
+    only for figures going into the thesis, where PDF scales without pixelating.
     """
     os.makedirs(output_dir, exist_ok=True)
     if formats is None:
-        formats = ("png",) if _MODE["current"] == "draft" else ("pdf", "png")
+        formats = ("png",)
     paths = []
     for ext in formats:
         p = os.path.join(output_dir, f"{filename}.{ext}")
