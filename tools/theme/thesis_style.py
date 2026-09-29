@@ -257,11 +257,11 @@ def save_figure(fig, filename: str, output_dir: str = "figures", formats: tuple 
 # -----------------------------------------------------------------------------
 AXIS_LABELS = {
     "distance":      r"$r$ ($\mathrm{\AA}$)",
-    "bond_length":   r"bond length $r$ ($\mathrm{\AA}$)",
+    "bond_length":   r"Bond Length $r$ ($\mathrm{\AA}$)",
     "cos_angle":     r"$\cos\theta$",
     "angle":         r"$\theta$ (deg)",
     "dihedral":      r"$\phi$ (rad)",
-    "free_energy":   r"free energy (kcal mol$^{-1}$)",
+    "free_energy":   r"Free Energy (kcal mol$^{-1}$)",
     "energy":        r"$U$ (kcal mol$^{-1}$)",
     "force":         r"$|F|$ (kcal mol$^{-1}$ $\mathrm{\AA}^{-1}$)",
     "delta_force":   r"$|\Delta F|$ (kcal mol$^{-1}$ $\mathrm{\AA}^{-1}$)",
@@ -269,8 +269,8 @@ AXIS_LABELS = {
     "rmsd":          r"RMSD ($\mathrm{\AA}$)",
     "time_ns":       r"$t$ (ns)",
     "probability":   r"$P$",
-    "counts":        r"counts",
-    "bin_occupancy": r"occupied bins",
+    "counts":        r"Counts",
+    "bin_occupancy": r"Occupied Bins",
 }
 
 TERM_LABELS = {
