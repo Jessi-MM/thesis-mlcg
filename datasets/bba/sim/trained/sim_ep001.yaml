@@ -1,0 +1,20 @@
+betas:
+- 1.4377675
+model_file: /srv/data/itzeljem79/mlcg-tk/bba/trained_sims/ep001/model_with_prior.pt
+structure_file: /srv/data/itzeljem79/mlcg-tk/bba/out/1FME_fes_ensemble_badn_min_pair_4_configurations.pt
+simulation:
+  create_checkpoints: false
+  device: cuda
+  dt: 0.004
+  dtype: single
+  export_interval: 1000
+  filename: /srv/data/itzeljem79/mlcg-tk/bba/trained_sims/ep001/sim/1FME_ep001
+  friction: 1.0
+  log_interval: 1000
+  log_type: write
+  n_timesteps: 200000
+  read_checkpoint_file: false
+  save_energies: false
+  save_forces: false
+  save_interval: 100
+  specialize_priors: true
