@@ -1,0 +1,9 @@
+dataset_name: lambda
+names: [lambda]
+training_data_dir: /srv/data/itzeljem79/mlcg-tk/lambda/out
+force_tag: badn_poly_min_pair_4
+dataset_tag: ""
+save_dir: /srv/data/itzeljem79/mlcg-tk/lambda/out
+single_protein: true
+train_size: 0.8
+mol_num_batches: 50

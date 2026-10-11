@@ -1,0 +1,9 @@
+dataset_name: lambda
+names: [lambda]
+tag: ""
+save_dir: /srv/data/itzeljem79/mlcg-tk/lambda/out
+prior_tag: badn_poly_min_pair_4
+prior_fn: /srv/data/itzeljem79/mlcg-tk/lambda/out/badn_poly_min_pair_4_prior_model.pt
+device: cuda
+batch_size: 5000
+mol_num_batches: 50

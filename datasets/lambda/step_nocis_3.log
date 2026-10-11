@@ -1,0 +1,10 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start fit_priors.py: Fri Oct  9 20:50:57 2026
+  0%|          | 0/4 [00:00<?, ?it/s]Fiting prior bonds:   0%|          | 0/4 [00:00<?, ?it/s]/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/scipy/optimize/_minpack_py.py:540: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  return func(xdata, *params) - ydata
+Fiting prior bonds:  25%|██▌       | 1/4 [00:01<00:03,  1.04s/it]Fiting prior angles:  25%|██▌       | 1/4 [00:01<00:03,  1.04s/it]Fiting prior angles:  50%|█████     | 2/4 [00:03<00:03,  1.79s/it]Fiting prior non_bonded:  50%|█████     | 2/4 [00:03<00:03,  1.79s/it]Fiting prior non_bonded:  75%|███████▌  | 3/4 [01:02<00:28, 28.08s/it]Fiting prior pseudo_ca_dihedral:  75%|███████▌  | 3/4 [01:02<00:28, 28.08s/it]Fiting prior pseudo_ca_dihedral: 100%|██████████| 4/4 [01:03<00:00, 17.39s/it]Fiting prior pseudo_ca_dihedral: 100%|██████████| 4/4 [01:03<00:00, 15.93s/it]
+Finish fit_priors.py: Fri Oct  9 20:52:01 2026

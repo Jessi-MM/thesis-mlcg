@@ -1,0 +1,11 @@
+dataset_name: lambda
+names: [lambda]
+tag: ""
+save_dir: /srv/data/itzeljem79/mlcg-tk/lambda/out
+stride: 10
+batch_size: 10000
+device: cpu
+save_figs: true
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+
+mol_num_batches: 50

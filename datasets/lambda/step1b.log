@@ -1,0 +1,8 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start gen_input_data.py: Tue Oct  6 18:49:27 2026
+Building NL for lambda dataset...:   0%|          | 0/1 [00:00<?, ?it/s]Building NL for lambda dataset...: 100%|██████████| 1/1 [00:15<00:00, 15.08s/it]Building NL for lambda dataset...: 100%|██████████| 1/1 [00:15<00:00, 15.08s/it]
+Finish gen_input_data.py: Tue Oct  6 18:49:43 2026

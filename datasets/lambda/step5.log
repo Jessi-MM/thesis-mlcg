@@ -1,0 +1,11 @@
+/storage/mi/itzeljem79/Projects/mlcg/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+`mlcg_opt_radius` not installed. Please check the`opt_radius` folder and follow the instructions.
+openequivariance is not installed. openequivariance features will be disabled. It is recommended to install openequivariance for better performance. To install openequivariance run pip install openequivariance
+Start package_training_data.py: Tue Oct  6 22:14:33 2026
+Packaging lambda dataset...:   0%|          | 0/1 [00:00<?, ?it/s]/storage/mi/itzeljem79/Projects/mlcg-tk/src/mlcg_tk/scripts/package_training_data.py:130: RuntimeWarning: overflow encountered in cast
+  "cg_delta_forces", data=cg_delta_forces.astype(np.float32)
+Packaging lambda dataset...:   0%|          | 0/1 [06:14<?, ?it/s]
+All batches saved in one molecule - exit batch loop
+Finish package_training_data.py: Tue Oct  6 22:20:51 2026
