@@ -1,0 +1,37 @@
+# ============================================================================
+# LAMBDA - trained model (ep0) Langevin simulation
+#
+# Identical to the prior-only baseline except model_file and filename, so any
+# difference in the resulting free energy surface is attributable to the network
+# rather than to a changed simulation setup.
+#
+# model_with_prior.pt was produced by:
+#   mlcg-combine_model --ckpt <checkpoint>.ckpt \
+#                      --prior badn_poly_min_pair_4_prior_model.pt \
+#                      --out   .../ep0/model_with_prior.pt
+# NOTE: --out is a FILE path despite the --help text calling it a directory;
+# passing a directory fails with "open file failed ... Is a directory".
+#
+# RUN WITH:  mlcg-nvt_langevin --config sim_ep0.yaml
+# ============================================================================
+
+betas:
+- 1.4377675
+model_file: /srv/data/itzeljem79/mlcg-tk/lambda/trained_sims/ep0/model_with_prior.pt
+structure_file: /srv/data/itzeljem79/mlcg-tk/lambda/out/lambda_fes_ensemble_configurations.pt
+simulation:
+  create_checkpoints: false
+  device: cuda
+  dt: 0.004
+  dtype: single
+  export_interval: 1000
+  filename: /srv/data/itzeljem79/mlcg-tk/lambda/trained_sims/ep0/prod/lambda_ep0
+  friction: 1.0
+  log_interval: 1000
+  log_type: write
+  n_timesteps: 200000
+  read_checkpoint_file: false
+  save_energies: false
+  save_forces: false
+  save_interval: 100
+  specialize_priors: true

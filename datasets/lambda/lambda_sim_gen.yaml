@@ -1,0 +1,34 @@
+# ============================================================================
+# LAMBDA REPRESSOR - pipeline step 6: starting structures for CG simulation
+#
+# Produces  <save_dir>/lambda_fes_ensemble_badn_poly_min_pair_4_configurations.pt
+# = a list of 100 mlcg AtomicData objects, one per starting structure, which
+# mlcg-nvt_langevin takes as its `structure_file`.
+#
+# PROVENANCE
+#   Modelled on Aldo's bba config
+#   (thesis-mlcg/datasets/bba/pipeline/bba_sim_gen.yaml). He has NO lambda
+#   directory in mlcg-proteins, so the starting ensemble did not exist and was
+#   built by tools/tica/make_sim_ensemble.py: 100 k-means centres on the
+#   reference TICs, each replaced by its nearest real frame, giving structures
+#   spread across the whole free energy surface (Rg 11.6 - 26.8 A).
+#
+# RUN WITH (prior_tag / prior_builders come from the priors config):
+#   mlcg-tk-gen_sim_input process_sim_input \
+#       --config lambda_sim_gen.yaml --config lambda_priors.yaml
+# ============================================================================
+
+dataset_name: lambda_fes_ensemble
+raw_data_dir: /storage/mi/itzeljem79/Projects/thesis-mlcg/datasets/lambda/
+pdb_fns:
+  - lambda_fes_ensemble_350K.pdb
+save_dir: /srv/data/itzeljem79/mlcg-tk/lambda/out/
+tag: ""
+cg_atoms:
+  - CA
+embedding_map: mlcg_tk.input_generator.CGEmbeddingMapCA
+embedding_func: mlcg_tk.input_generator.embedding_ca
+skip_residues:
+  - ACE
+  - NME
+copies: 1

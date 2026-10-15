@@ -1,0 +1,41 @@
+# ============================================================================
+# LAMBDA - prior-only Langevin simulation (the BASELINE, run before the trained model)
+#
+# WHY THIS RUNS FIRST
+#   1. It exercises the whole chain -- combine/structure -> simulate -> project
+#      -> plot -- while nothing is at stake, so a unit or topology bug surfaces
+#      here rather than inside a result.
+#   2. It is the control the trained model is read against: without it you cannot
+#      say what the network added, only what prior+network produced together.
+#   3. It tests stability. RMS(dF)/RMS(F) is 0.928 for lambda, i.e. the prior
+#      absorbs little, so a blow-up is a real possibility worth finding now.
+#
+# PROVENANCE: copied from datasets/bba/sim/prioronly/sim_prior_prod.yaml,
+#   with the three lambda paths swapped and device moved to cuda (80 beads x 100
+#   replicas rather than bba's 28). beta is unchanged because the temperature is
+#   the same 350 K: 1/(0.0019872 * 350) = 1.4377675.
+#
+# RUN WITH:
+#   mlcg-nvt_langevin --config sim_prior_prod.yaml
+# ============================================================================
+
+betas:
+- 1.4377675
+model_file: /srv/data/itzeljem79/mlcg-tk/lambda/out/badn_poly_min_pair_4_prior_model.pt
+structure_file: /srv/data/itzeljem79/mlcg-tk/lambda/out/lambda_fes_ensemble_configurations.pt
+simulation:
+  create_checkpoints: false
+  device: cuda
+  dt: 0.004
+  dtype: single
+  export_interval: 1000
+  filename: /srv/data/itzeljem79/mlcg-tk/lambda/prioronly/prod/lambda_prioronly
+  friction: 1.0
+  log_interval: 1000
+  log_type: write
+  n_timesteps: 200000
+  read_checkpoint_file: false
+  save_energies: false
+  save_forces: false
+  save_interval: 100
+  specialize_priors: true
